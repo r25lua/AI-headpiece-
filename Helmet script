@@ -139,7 +139,7 @@ local function align(Part0, Part1)
                 else
                     local vel = (newcf.Position - lastpos) / delta
                     Part0.Velocity = getNetlessVelocity(vel)
-                    if vel.Magnitude < 1 xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed xss=removed> 0.01 then
+                    if vel.Magnitude < 1 > 0.01 then
                 Part0.Velocity = getNetlessVelocity(Part1.Velocity)
             else
                 Part0.Velocity = getNetlessVelocity((Part0.Position - lastpos) / delta)
